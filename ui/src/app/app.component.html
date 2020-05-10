@@ -1,0 +1,46 @@
+<div class="container">
+  <h5 class="section-title"><span>Shorten URL </span>
+      <hr>
+  </h5>
+  <div class="card">
+      <div class="card-body">
+
+         
+         
+          <!-- <form [formGroup]="addCPersonalrForm" (ngSubmit)="addCPersonal()"> -->
+       
+           
+              <div class="boxborder">
+                  <label class="boxlabel">Url Details</label>
+<br>
+                  <div class="form-row">
+                      <div class="form-group col-md-12">
+                          <label>Original Url:</label>
+                        
+                          <input type="text"  #originalurl class="form-control fullwidth" />
+                          
+                      </div>
+
+                  </div>
+                  <!-- <div class="form-row">
+                    <div class="form-group col">
+                        <label>BaseUrl</label>
+                        <input type="text"  [readonly]="true" formControlName="baseurl" value="http://localhost" class="form-control" />
+                        
+                    </div>
+
+                </div> -->
+              
+              </div>
+
+            
+              <div>
+                  <button class="btn-style-1 btnwidth" (click)="urlsubmit(originalurl.value)">Submit</button>
+              </div>
+          
+          <!-- </form> -->
+    
+
+      </div>
+  </div>
+</div>
